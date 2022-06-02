@@ -1,1 +1,1 @@
-a c progrom to print using puts()
+C program to print usinf the printf function
