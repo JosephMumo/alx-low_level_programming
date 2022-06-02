@@ -1,1 +1,1 @@
-a script that generates the assembly code of C
+script to print some text
