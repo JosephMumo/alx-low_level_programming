@@ -1,1 +1,1 @@
-script to compile a C file and create an executable file
+a c progrom to print using puts()
