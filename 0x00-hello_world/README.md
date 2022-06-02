@@ -1,1 +1,1 @@
-script to generate assembly code of C
+script to compile a C file and create an executable file
