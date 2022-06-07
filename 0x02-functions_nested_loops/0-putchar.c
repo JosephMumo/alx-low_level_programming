@@ -1,13 +1,18 @@
 #include "main.h"
 
 /**
- * _putchar - prints characters c to stdout
- * @: The characters to be printed
- *
- * Return: 1 if executed successfully
- * On error, -1 if error is present
+ * main - program entry point
+ * Return: 0 if successfull
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char x[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(x[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
