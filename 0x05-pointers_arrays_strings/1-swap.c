@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * swap_int - swaps 2 integers
