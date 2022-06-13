@@ -11,7 +11,7 @@ void puts_half(char *str)
 
 	while (count >= 0)
 	{
-		if (str[count] == '0\')
+		if (str[count] == '\0')
 			break;
 		count++;
 	}
