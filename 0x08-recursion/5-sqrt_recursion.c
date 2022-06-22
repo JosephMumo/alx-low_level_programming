@@ -7,11 +7,11 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (sqr(n, 1));
+	return (square(n, 1));
 }
 
 /**
- * sqr - compute squre root
+ * square - compute squre root
  * @n: param
  * @val: sqroot
  * Return: an integer value
@@ -24,7 +24,7 @@ int sqr(int n, int val)
 	}
 	else if (val * val < n)
 	{
-		return (sqr(n, val + 1));
+		return (square(n, val + 1));
 	}
 	else
 	{
