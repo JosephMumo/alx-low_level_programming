@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
  * @val: sqroot
  * Return: an integer value
  */
-int sqr(int n, int val)
+int square(int n, int val)
 {
 	if (val * val == n)
 	{
