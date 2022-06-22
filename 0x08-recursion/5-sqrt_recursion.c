@@ -7,27 +7,28 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	return (_sqrt(n, 1));
 }
 
 /**
- * square - compute squre root
+ * _sqrt - compute squre root
  * @n: param
- * @val: sqroot
+ * @i: sqroot
  * Return: an integer value
  */
-int square(int n, int val)
+int _sqrt(int n, int i)
 {
-	if (val * val == n)
-	{
-		return (val);
-	}
-	else if (val * val < n)
-	{
-		return (square(n, val + 1));
-	}
-	else
+	if (n < 0)
 	{
 		return (-1);
 	}
+	if ((i * i) > n)
+	{
+		return (-1);
+	}
+	if (i * i == n)
+	{
+		return (i);
+	}
+	return (_sqrt(n, i + 1));
 }
