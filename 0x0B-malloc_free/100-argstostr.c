@@ -1,11 +1,12 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * _strlen - length of a string
+ * _strlen - len of a str
  * @s: input char
- * Return: str length
+ * Return: len of a str
  */
+
 int _strlen(char *s)
 {
 	int l = 0;
@@ -24,6 +25,7 @@ int _strlen(char *s)
  * @av: vector
  * Return: string
  */
+
 char *argstostr(int ac, char **av)
 {
 	int i, j, k;
@@ -32,7 +34,7 @@ char *argstostr(int ac, char **av)
 
 	if (!ac || !av)
 	{
-		rturn (NULL);
+		return (NULL);
 	}
 	R = 0;
 
