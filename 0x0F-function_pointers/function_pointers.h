@@ -3,9 +3,6 @@
 #define FUNCTION_POINTERS_H
 
 
-
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_name.c -o a
-
 void print_name(char *name, void (*f)(char *));
 
 int _putchar(int c);
