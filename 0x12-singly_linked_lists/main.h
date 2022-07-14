@@ -1,6 +1,6 @@
-#ifndef LISTS_H
+#ifndef MAIN_H
 
-#define LISTS_H
+#define MAIN_H
 
 
 
@@ -60,4 +60,4 @@ void free_list(list_t *head);
 
 
 
-#endif /* LISTS_H */
+#endif /* MAIN_H */

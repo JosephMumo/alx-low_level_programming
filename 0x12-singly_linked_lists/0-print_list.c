@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "main.h"
 /**
  * slen - returns str len
  * @str: the str given
