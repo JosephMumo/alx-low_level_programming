@@ -1,15 +1,18 @@
 #include "main.h"
 /**
-* _abs - prints the absolute value of a number
-*@i: number targeted
-*Return: returns 0
+* _strcpy - Copy paste string
+*@dest: destination
+*@src: source
+*Return: dest
 */
-int _abs(int i)
+char *_strcpy(char *dest, char *src)
 {
-if (i > 0)
-return (i);
-else if (i < 0)
-return (-i);
-else
-return (0);
+int inc = 0;
+while (*(src + inc) != '\0')
+{
+*(dest + inc) = *(src + inc);
+inc++;
 }
+*(dest + inc) = '\0';
+return (dest);
+}}
